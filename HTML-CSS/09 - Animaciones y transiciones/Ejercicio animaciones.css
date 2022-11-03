@@ -1,0 +1,17 @@
+.btn-modern {
+    display: flex;
+    font-size: medium;
+    border: none;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    border-bottom: 2px solid rgba(197, 196, 196, 0.571);
+    background-color: crimson;
+    color: white ;
+    transition: 0.4s;
+}
