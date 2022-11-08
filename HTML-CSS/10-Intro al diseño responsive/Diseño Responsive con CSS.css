@@ -1,0 +1,43 @@
+.contenedor {
+    display: flex;
+    color: #f4efed;
+    gap: 0.5rem;
+    padding: 0.25rem;
+}
+
+.seccion1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.elementos {
+    background-color: #20cfd9;
+    padding: 0.5rem;
+}
+
+.seccion2 {
+    background-color: #1da2c9;
+    border: none;
+    padding: 0.5rem;
+    flex-grow: 5;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+    }
+    
+    .seccion1 {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .principal {
+        order: 1;
+    }
+
+
+}
+
+
